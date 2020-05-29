@@ -8,14 +8,54 @@ body{
   background-color: #F7F7F7;
 }
 
-ul.header_links{
-  margin: 0;
-}
+/* navigation links */
 li.a{
   color: green;
   display: inline-block;
-  margin: 20px;
+  margin: 40px;
+  float: right;
+  list-style-type: none;
 }
+/* title "MIa TRuman" */
+li.title{
+  font-size: 30px;
+  margin: 30px 0 0 30px;
+  display: inline-block;
+  color: red;
+  list-style-type: none;
+}
+/* LINK SETTINGS FOR TITLE */
+  li.title a{
+    color: black;
+    text-decoration: none;
+  }
+  li.title a:visited{
+    text-decoration: none;
+  }
+  li.title a:hover{
+    /* text-decoration: underline; */
+    /* color: black; */
+    opacity: 30%;
+  }
+  li.title a:active{
+    text-decoration: none;
+  }
+  /* LINK SETTINGS FOR NAV BAR */
+  li.a a{
+      color: black;
+      text-decoration: none;
+    }
+  li.a a:visited{
+      text-decoration: none;
+    }
+  li.a a:hover{
+      /* text-decoration: underline; */
+      /* color: black; */
+      opacity: 30%;
+    }
+  li.a a:active{
+      text-decoration: none;
+    }
 
 
 
