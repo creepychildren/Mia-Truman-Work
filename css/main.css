@@ -1,12 +1,36 @@
 
 h1{
-  color: red;
-}
-div{
-  background: red;
-  display: block;
+  color: black;
+  margin: 40px 0 0 40px;
 }
 
 body{
   background-color: #F7F7F7;
 }
+
+ul.header_links{
+  margin: 0;
+}
+li.a{
+  color: green;
+  display: inline-block;
+  margin: 20px;
+}
+
+
+
+
+
+
+
+/* NOT IMPORTANT STUFF. DELETE LATER */
+/* section{
+  color: blue;
+  display: flex;
+  flex-direction: row;
+}
+
+div{
+  display: inline;
+  margin: auto;
+} */
