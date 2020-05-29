@@ -1,0 +1,10 @@
+
+body{
+  color:pink;
+}
+img.midsommar{
+  max-width: 90%;
+  /* width: 80%; */
+  height: auto;
+  margin: 20px 40px 0 40px;
+}
