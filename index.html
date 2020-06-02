@@ -2,31 +2,42 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>MIA TRUMAN-ART</title>
+    <title>MIA TRUMAN-ART</title> <!-- how it appears to look on the website -->
     <link rel="stylesheet" type="text/css" href="css/main.css">
   </head>
 
-
   <body>
     <header>
-      <!-- <h1>MIA TRUMAN</h1> -->
-      <!-- <section>
-        <div>hellos</div>
-        <div>hel</div>
-        <div>hel</div>
-      </section> -->
-      <nav>
-        <ul class="header_links">
-          <li class = "title"><a href="index.html">MIA TRUMAN</a></li>
-          <li class = "a"><a href="index.html">Home</a></li>
-          <li class = "a"><a href="childhood.html">Childhood Paintings</a></li>
-          <li class = "a"><a href="other-works.html">Other work</a></li>
-          <li class = "a"><a href="bio.html">Bio</a></li>
-          <li class = "a"><a href="contact.html">Contact</a></li>
+      <!-- title -->
+      <div class="full_header">
+        <div class="name_header">
+          <a href="index.html">MIA TRUMAN</a>
+        </div>
+          <!-- navigation bar -->
+              <!-- <nav> -->
+                <div class="navbar"> <!-- navigation bar -->
+                  <!-- links in the navigation bar -->
+                  <a href="index.html">Home</a>
+                  <a href="bio.html">Bio</a>
+                  <a href="contact.html">Contact</a>
+                    <!-- dropdown menu for "work"-->
+                    <div class="dropdown">
+                      <!-- creates the "button"-->
+                      <button class="dropbtn">Work<i class="fa fa-caret-down"></i>
+                      </button>
+                      <!-- content in the dropdown with links -->
+                      <div class="dropdown-content">
+                        <a href="work-dropdown/childhood.html">Paintings about Childhood</a>
+                        <a href="work-dropdown/graphic-design">All Paintings</a>
+                        <a href="work-dropdown/drawings&prints.html">Drawings and Prints</a>
+                        <a href="work-dropdown/graphic-design">Digital Art</a>
+                      </div>
+                    </div>
+                </div>
+              <!-- </nav> -->
+      </div>
 
-        </ul>
-      </nav>
-
+          <!-- end of navigation bar code-->
     </header>
 
   </body>
